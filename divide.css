@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: rgba(210, 0, 0, 1);
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 1.3vw 30px;
+  font-weight: 900;
+}
+
+#brand {
+  font-size: 1.5vw !important;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+    font-size: 2vw;
+    padding: 0 2vw;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#active {
+  border-bottom: 3px solid white;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#equation {
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+}
+
+#num1 {
+  color: rgba(210, 0, 0, 1);
+}
+
+#divide {
+  color: rgba(0, 126, 210, 1);
+}
+
+#num2 {
+  color: rgba(210, 202, 0, 1);
+}
+
+#equal {
+  color: rgba(210, 0, 0, 1);
+}
+
+#question {
+  color: rgba(120, 120, 120, 1);
+}
+
+#ansOption {
+  width: 29vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  gap: 3vw;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3vw;
+  border-radius: 0vw;
+  background: whitesmoke;
+  padding-top: 1vw;
+}
+
+#option1,
+#option2,
+#option3 {
+  width: 18vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 3vw;
+}
+
+#option1 {
+  background-color: rgba(210, 0, 0, 1);
+  border: 10px solid rgba(169, 0, 0, 1)
+}
+
+#option2 {
+  background-color: rgba(0, 126, 210, 1);
+  border: 10px solid rgba(49, 57, 191, 1);
+}
+
+#option3 {
+  background-color: rgba(210, 202, 0, 1);
+  border: 10px solid rgba(163, 156, 0, 1);
+}
+
+#opt1,
+#opt2,
+#opt3 {
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
