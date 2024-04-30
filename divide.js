@@ -10,32 +10,29 @@ var ans = 0;
 var allAns = [];
 var switchAns = [];
 
-opt1.addEventListener("click", function() {
-  if (opt1.innerHTML == ans) {
+document.getElementById("option1").addEventListener("click", function () {
+  if (opt1.innerText == ans) {
     equationCreation();
-  }
-  else {
+  } else {
     audio.play();
   }
-})
+});
 
-opt2.addEventListener("click", function() {
+document.getElementById("option2").addEventListener("click", function () {
   if (opt2.innerHTML == ans) {
     equationCreation();
-  }
-  else {
+  } else {
     audio.play();
   }
-})
+});
 
-opt3.addEventListener("click", function() {
+document.getElementById("option3").addEventListener("click", function () {
   if (opt3.innerHTML == ans) {
     equationCreation();
-  }
-  else {
+  } else {
     audio.play();
   }
-})
+});
 
 function equationCreation() {
   var numVal1 = Math.floor(Math.random() * 10);

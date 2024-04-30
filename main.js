@@ -2,6 +2,7 @@
 var num1 = document.getElementById("num1");
 var num2 = document.getElementById("num2");
 var audio = document.getElementById("myAudio");
+
 var opt1 = document.getElementById("opt1");
 var opt2 = document.getElementById("opt2");
 var opt3 = document.getElementById("opt3");
@@ -10,8 +11,8 @@ var ans = 0;
 var allAns = [];
 var switchAns = [];
 
-opt1.addEventListener("click", function() {
-  if (opt1.innerHTML == ans) {
+document.getElementById("option1").addEventListener("click", function() {
+  if (opt1.innerText == ans) {
     equationCreation();
   }
   else {
@@ -19,7 +20,7 @@ opt1.addEventListener("click", function() {
   }
 })
 
-opt2.addEventListener("click", function() {
+document.getElementById("option2").addEventListener("click", function() {
   if (opt2.innerHTML == ans) {
     equationCreation();
   }
@@ -28,7 +29,7 @@ opt2.addEventListener("click", function() {
   }
 })
 
-opt3.addEventListener("click", function() {
+document.getElementById("option3").addEventListener("click", function() {
   if (opt3.innerHTML == ans) {
     equationCreation();
   }
